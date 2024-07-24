@@ -10,6 +10,8 @@
     <div class="container">
         <h1>Crypto Message App</h1>
         <textarea id="message" placeholder="Enter your message here..."></textarea>
+        <input type="text" id="key" placeholder="Enter your key here...">
+        <button onclick="generateKey()">Generate Key</button>
         <button onclick="encryptMessage()">Encrypt</button>
         <button onclick="decryptMessage()">Decrypt</button>
         <p id="result"></p>
